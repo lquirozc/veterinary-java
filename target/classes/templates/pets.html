@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pets Client</title>
+</head>
+<body>
+    <h1>Pets List</h1>
+    <table>
+        <tr>
+			<th>Tipo de Mascota</th>
+            <th>Nombre</th>
+            <th>Dueño</th>
+            <th>Fecha de nacimento</th>
+            <!-- Agrega más columnas según tus necesidades -->
+        </tr>
+        <tr th:each="pet : ${pets}">
+			<td th:text="${pet.petType}"></td>
+            <td th:text="${pet.petName}"></td>
+            <td th:text="${pet.ownerName}"></td>
+            <td th:text="${pet.bornDate}"></td>
+            <!-- Agrega más celdas según tus necesidades -->
+        </tr>
+    </table>
+</body>
+</html>

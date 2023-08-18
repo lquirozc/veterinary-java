@@ -1,4 +1,4 @@
-package com.prueba.veterinary.controllers;
+package com.prueba.veterinary.controllers.api;
 
 import com.prueba.veterinary.models.*;
 import com.prueba.veterinary.services.PetsService;
@@ -26,4 +26,5 @@ public class PetsController {
     public List<Pets> getAll() {
         return petsService.getAll();
     }
+    
 }
