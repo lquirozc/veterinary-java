@@ -1,6 +1,5 @@
 package com.prueba.veterinary.models;
 import java.util.Date;
-import java.util.UUID;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,18 +10,18 @@ public class Pets {
 
 	@Id
 	@Column(name = "idPet")
-	private UUID idPet;
+	private String idPet;
 		
-    public UUID getIdPet() {
+    public String getIdPet() {
 		return idPet;
 	}
-	public void setIdPet(UUID idPet) {
+	public void setIdPet(String idPet) {
 		this.idPet = idPet;
 	}
-	public UUID getIdPetType() {
+	public String getIdPetType() {
 		return idPetType;
 	}
-	public void setIdPetType(UUID idPetType) {
+	public void setIdPetType(String idPetType) {
 		this.idPetType = idPetType;
 	}
 	public String getPetName() {
@@ -37,10 +36,10 @@ public class Pets {
 	public void setBornDate(Date bornDate) {
 		this.bornDate = bornDate;
 	}
-	public UUID getIdOwner() {
+	public String getIdOwner() {
 		return idOwner;
 	}
-	public void setIdOwner(UUID idOwner) {
+	public void setIdOwner(String idOwner) {
 		this.idOwner = idOwner;
 	}
 	public String getOwnerName() {
@@ -56,10 +55,10 @@ public class Pets {
 		this.petType = petType;
 	}
 	
-	private UUID idPetType;
+	private String idPetType;
     private String petName;
     private Date bornDate;
-    private UUID idOwner;
+    private String idOwner;
     private String ownerName;
     private String petType;
 	

@@ -1,7 +1,9 @@
 C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\services\PetsService.java
-C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\AppConfig.java
+C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\controllers\api\PetsController.java
 C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\VeterinaryApplication.java
 C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\models\Pets.java
+C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\models\Result.java
 C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\services\PetsServiceImpl.java
-C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\controllers\PetsController.java
+C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\SwaggerConfig.java
+C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\controllers\client\PetsClientController.java
 C:\Users\luis.quiroz\eclipse-workspace\Veterinary\src\main\java\com\prueba\veterinary\repository\PetsRepository.java

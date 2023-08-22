@@ -8,5 +8,14 @@ import com.prueba.veterinary.models.*;
 
 @Component
 public interface PetsService {
-	 List<Pets> getAll();
+
+	List<Pets> getAll();
+
+	Pets getById(String petId);
+
+	void save(Pets pet);
+
+	void update(Pets pet);
+	
+	void delete(String petId);
 }

@@ -1,6 +1,9 @@
+com\prueba\veterinary\controllers\api\PetsController.class
+com\prueba\veterinary\models\Result.class
 com\prueba\veterinary\repository\PetsRepository.class
 com\prueba\veterinary\VeterinaryApplication.class
+com\prueba\veterinary\SwaggerConfig.class
 com\prueba\veterinary\services\PetsServiceImpl.class
-com\prueba\veterinary\controllers\PetsController.class
+com\prueba\veterinary\controllers\client\PetsClientController.class
 com\prueba\veterinary\models\Pets.class
 com\prueba\veterinary\services\PetsService.class
